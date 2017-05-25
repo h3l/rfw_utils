@@ -122,7 +122,7 @@ class {model_name}ViewSet(ModelViewSet):
         model_list = []
         for model in models:
             model_list.append("models." + model["name"])
-        admin_result += "\n\nadmin.site.register({})\n".format(", ".join(model_list))
+        admin_result += "\n\nadmin.site.register([{}])\n".format(", ".join(model_list))
         with open(app_name + "/admin.py", "w", encoding="utf-8") as f:
             f.write(admin_result)
             print("admin.py is OK")
