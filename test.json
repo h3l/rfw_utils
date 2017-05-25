@@ -1,0 +1,182 @@
+[
+  {
+    "name": "book",
+    "fields": [
+      {
+        "name": "title",
+        "type": "str",
+        "verbose_name": "标题",
+        "max_length": 20
+      },
+      {
+        "name": "another_title",
+        "type": "str",
+        "verbose_name": "标题"
+      },
+      {
+        "name": "money",
+        "type": "int",
+        "verbose_name": "价格"
+      },
+      {
+        "name": "money2",
+        "type": "positive_int",
+        "verbose_name": "价格2"
+      },
+      {
+        "name": "text_choice",
+        "type": "choice",
+        "verbose_name": "test_choice",
+        "choices": [
+          [
+            "a",
+            "A"
+          ],
+          [
+            "aa",
+            "AA"
+          ]
+        ]
+      },
+      {
+        "name": "test_text",
+        "type": "text",
+        "verbose_name": "test_text"
+      },
+      {
+        "name": "test_bool",
+        "type": "bool",
+        "verbose_name": "test_bool",
+        "default": true
+      },
+      {
+        "name": "test_date",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now_add": true
+      },
+      {
+        "name": "test_date1",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now_add": false
+      },
+      {
+        "name": "test_date2",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now": true
+      },
+      {
+        "name": "test_date3",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now": false
+      },
+      {
+        "name": "test_date4",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now": false
+      },
+      {
+        "name": "test_date5",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now": false,
+        "auto_now_add": false
+      },
+      {
+        "name": "test_date6",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now": true,
+        "auto_now_add": true
+      },
+      {
+        "name": "test_date7",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now": true,
+        "auto_now_add": false
+      },
+      {
+        "name": "test_date8",
+        "type": "date",
+        "verbose_name": "test_date",
+        "auto_now": false,
+        "auto_now_add": true
+      },
+      {
+        "name": "test_datetime",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now_add": true
+      },
+      {
+        "name": "test_datetime1",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now_add": false
+      },
+      {
+        "name": "test_datetime2",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": true
+      },
+      {
+        "name": "test_datetime3",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": false
+      },
+      {
+        "name": "test_datetime4",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": false
+      },
+      {
+        "name": "test_datetime5",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": false,
+        "auto_now_add": false
+      },
+      {
+        "name": "test_datetime6",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": true,
+        "auto_now_add": true
+      },
+      {
+        "name": "test_datetime7",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": true,
+        "auto_now_add": false
+      },
+      {
+        "name": "test_datetime8",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": false,
+        "auto_now_add": true
+      }
+    ]
+  },
+  {
+    "name": "another",
+    "fields": [
+      {
+        "name": "test_datetime8",
+        "type": "datetime",
+        "verbose_name": "test_datetime",
+        "auto_now": false,
+        "auto_now_add": true
+      }
+    ]
+  }
+]
