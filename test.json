@@ -87,13 +87,6 @@
         "auto_now_add": false
       },
       {
-        "name": "test_date6",
-        "type": "date",
-        "verbose_name": "test_date",
-        "auto_now": true,
-        "auto_now_add": true
-      },
-      {
         "name": "test_date7",
         "type": "date",
         "verbose_name": "test_date",
@@ -143,13 +136,6 @@
         "verbose_name": "test_datetime",
         "auto_now": false,
         "auto_now_add": false
-      },
-      {
-        "name": "test_datetime6",
-        "type": "datetime",
-        "verbose_name": "test_datetime",
-        "auto_now": true,
-        "auto_now_add": true
       },
       {
         "name": "test_datetime7",
