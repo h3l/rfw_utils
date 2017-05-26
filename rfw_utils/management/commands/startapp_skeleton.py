@@ -169,3 +169,4 @@ class {}Config(AppConfig):
         with open(app_name + "/__init__.py", "w", encoding="utf-8") as f:
             f.write("")
             print("__init__.py is OK")
+        print("记得添加该 app 到 INSTALLED_APPS, 以及添加该 app 的 urls 到 主urls.py 文件中。")
