@@ -3,7 +3,7 @@
 """
 @author: h3l
 @contact: xidianlz@gmail.com
-@file: init_project.py
+@file: startapp_skeleton.py
 @time: 2017/2/28 17:46
 """
 import os
@@ -80,7 +80,7 @@ class Command(BaseCommand):
         serializers_result = ""
         serializers_result += """from rest_framework import serializers
 
-from rft_utils.functions import generate_fields
+from rfw_utils.functions import generate_fields
 
 from . import models
 """
