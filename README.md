@@ -32,6 +32,10 @@
 
   ​
 
+## 小彩蛋
+
+raw_utils.functions 下的 generate_fields 非常好用，可以看看生成的 serializers.py 中的用法。
+
 ## TODO
 
 鉴于 Django admin 的二次开发成本很高，可以依据 json 配置文件生成相应的前端代码，方便快速开发。

@@ -19,7 +19,7 @@ setup(
       keywords='restframework utils', # 关键字
       author='helvetica', # 用户名
       author_email='xidianlz@gmail.com', # 邮箱
-      url='https://github.com/taizilongxu/douban.fm', # github上的地址,别的地址也可以
+      url='https://github.com/h3l/rfw_utils', # github上的地址,别的地址也可以
       license='MIT', # 遵循的协议
       packages=['rfw_utils', "rfw_utils.management", "rfw_utils.management.commands"], # 发布的包名
       include_package_data=True,
